@@ -15,7 +15,7 @@ This project displays the header of my portfolio mobile version page. The was bu
 
 ## Live Demo
 
-[Live Demo Link](https://goodluck5956.github.io/mobile-skeleton/)
+[Live Demo Link]( https://goodluck5956.github.io/Mobile-Version/)
 
 ## Getting Started
 
@@ -54,7 +54,7 @@ Lucky James
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Goodluck5956/mobile-skeleton/issues).
+Feel free to check the [issues page](https://github.com/Goodluck5956/Mobile-Version/issues).
 
 ## Show your support
 
