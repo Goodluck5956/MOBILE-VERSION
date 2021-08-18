@@ -1,11 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Mobile skeleton Portfolio
+# My Mobile skeleton
 
 
 This project displays the header of my portfolio mobile version page. The was built with Html, Css,Vscode,Git and Github. 
 
-![screenshot](./images/screenshot.png)
+![screenshot](./images/screenshotm.png)
 
 
 ## Built With
@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
     VS Code
 
 ### Usage
-    This is a simple project to dipslay the header and footer of my portfolio mobile version page.
+    This is a simple project to dipslay the header and footer of my mobile version page.
 
 
 ## Authors
