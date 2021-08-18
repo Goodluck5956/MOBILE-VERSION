@@ -92,8 +92,6 @@ a {
   font-size: x-large;
 }
 
-/* second section start's here */
-
 main {
   display: grid;
   grid-template-columns: 100%;
@@ -209,4 +207,88 @@ main {
 
 form {
   align-self: flex-start;
+}
+
+.about-myself {
+  background-color: #fff;
+  border-radius: 0 5rem 0 0;
+}
+
+.about-myself .myself-header {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 2.6rem;
+  color: #172b4d;
+  line-height: 3rem;
+  text-transform: capitalize;
+  padding: 2rem 10rem 2rem 1rem;
+}
+
+.about-myself .myself-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-family: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #344563;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.icon-body .social-icons {
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.skills li {
+  font-family: "Poppins", sans-serif;
+  padding: 2rem 0 5rem 1rem;
+}
+
+.language,
+.skill,
+.framework {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 1rem 0;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.dropdowns {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.framework,
+.skill {
+  border-bottom: 2px solid #e3e5e9;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+}
+
+.script,
+.css,
+.html {
+  display: flex;
+  align-items: center;
+  margin: 0 2.5rem 2rem 1rem;
+  background-color: #f7f7f9;
+  border-radius: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
+  text-align: center;
+}
+
+.script li,
+.css li,
+.html li {
+  font-family: "Poppins", sans-serif;
+  font-family: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #344563;
+  padding-left: 1rem;
 }
