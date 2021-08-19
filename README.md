@@ -5,7 +5,7 @@
 
 This project displays the work section and the about me section of my mobile version page. The project was built with Html, Css,Vscode,Git and Github. 
 
-![screenshot](./images/Mobilescreen.png)
+![screenshot](./templates/Demopage.png)
 
 
 ## Built With
