@@ -13,11 +13,11 @@ body {
 li {
   list-style: none;
 }
- 
+
 a {
   text-decoration: none;
 }
- 
+
 .about-me a {
   font-family: "Poppins", sans-serif;
   color: #7f8cff;
@@ -35,7 +35,7 @@ a {
   background-color: #fff;
   border-radius: 0 0 0 80px;
 }
- 
+
 .menu-top ul {
   display: flex;
   justify-content: space-between;
@@ -60,7 +60,7 @@ a {
   color: #172b4d;
   padding: 96px 16px 0 16px;
 }
-  
+
 .introduction p {
   font-style: normal;
   font-weight: normal;
@@ -68,7 +68,7 @@ a {
   color: #344563;
   padding: 0 16px 16px 16px;
 }
- 
+
 .link-up {
   font-style: normal;
   font-weight: 600;
@@ -76,22 +76,22 @@ a {
   padding: 0  16px;
   font-size: 16px;
 }
- 
+
 .social-media-icons {
   display: flex;
-  padding: 24px 16px 144px 16px;
+  padding: 24px 16px 50px 16px;
 }
- 
+
 .social-media-icons li a {
   margin-right: 32px;
   font-size: larger;
   color: #505f79;
 }
- 
+
 .fab {
   font-size: x-large;
 }
- 
+
 main {
 display: grid;
   grid-template-columns: 100%;
@@ -106,12 +106,12 @@ display: grid;
   flex-direction: column;
   align-items: center;
   
-    /* height: 38rem; */
+  /* height: 38rem; */
   background-color: #fff;
   border-radius: 16px;
   box-shadow: -0.2px -0.1px gray;
 }
-  
+
 .img-work {
   width: 90%;
   height: auto;
@@ -127,7 +127,7 @@ display: grid;
   margin: 8px;
   align-self: flex-start;
 }
- 
+
 .work-history {
   display: flex;
   align-items: center;
@@ -135,11 +135,11 @@ display: grid;
   margin: 16px 48px 16px 16px;
   align-self: flex-start;
 }
- 
+
 .work-history li {
   padding-right: 8px;
 }
- 
+
 .cover {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -155,10 +155,10 @@ display: grid;
   font-size: 14.4px;
   color: #7a869a;
 
-    /* padding-left: 0.5rem; */
+  /* padding-left: 0.5rem; */
   text-transform: capitalize;
 }
-  
+
 .body-detail {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -168,13 +168,13 @@ display: grid;
   margin: 8px 16px 8px 14.4px;
   font-size: 16px;
 }
- 
+
 .courses {
   display: flex;
   align-self: flex-start;
   padding: 16px 36px 0 16px;
 }
- 
+
 .courses li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -187,7 +187,7 @@ display: grid;
   margin-right: 16px;
   background-color: #ebebff;
 }
-  
+
 .btn-body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -202,7 +202,7 @@ display: grid;
   align-items: flex-start;
   align-self: flex-start;
 }
- 
+
 form {
   align-self: flex-start;
 }
@@ -222,7 +222,7 @@ form {
   text-transform: capitalize;
   padding: 32px 160px 32px 16px;
 }
- 
+
 .about-myself .myself-paragraph {
   font-family: "Poppins", sans-serif;
   font-family: normal;
@@ -235,12 +235,12 @@ form {
 .icon-body .social-icons {
   padding: 24px 16px 16px 16px;
 }
- 
+
 .skills li {
   font-family: "Poppins", sans-serif;
   padding: 24px 0 80px 16px;
 }
- 
+
 .language,
 .skill,
 .framework {
@@ -250,7 +250,7 @@ form {
   padding: 0 32px 16px 0;
   margin: 0 16px 16px 16px;
 }
- 
+
 .downlinks {
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
@@ -258,14 +258,14 @@ form {
   font-weight: 800;
   font-size: 19.2px;
 }
- 
+
 .framework,
 .skill {
   border-bottom: 2px solid #e3e5e9;
   margin-right: 64px;
   margin-bottom: 64px;
 }
- 
+
 .script,
 .css,
 .html {
@@ -277,7 +277,7 @@ form {
   padding: 8px 0 8px 0;
   text-align: center;
 }
- 
+
 .script li,
 .css li,
 .html li {
