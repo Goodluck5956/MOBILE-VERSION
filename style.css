@@ -224,14 +224,13 @@ form {
 }
  
 .about-myself .myself-paragraph {
-    font-family: "Poppins", sans-serif;
-    font-family: normal;
-    font-weight: normal;
-    font-size: 20.8px;
-    line-height: 32px;
-    color: #344563;
-    padding: 16px 16px 32px 16px;
-  }
+  font-family: "Poppins", sans-serif;
+  font-family: normal;
+  font-weight: normal;
+  font-size: 20.8px;
+  line-height: 32px;
+  color: #344563;
+  padding: 16px 16px 32px 16px;}
 
 .icon-body .social-icons {
   padding: 24px 16px 16px 16px;
