@@ -80,6 +80,7 @@ a {
 .social-media-icons {
   display: flex;
   padding: 24px 16px 50px 16px;
+
 }
 
 .social-media-icons li a {
@@ -203,13 +204,30 @@ main {
   align-self: flex-start;
 }
 
-form {
+button {
   align-self: flex-start;
+  background-color: blue;
+}
+
+button:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border: 1px solid #fff;
+  color: white;
+}
+
+button:active {
+  background: blue;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border: 1px solid #fff;
+  color: white;
 }
 
 .about-myself {
   background-color: #fff;
   border-radius: 0 80px 0 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-myself .myself-header {
@@ -231,7 +249,7 @@ form {
   line-height: 32px;
   color: #344563;
   padding: 16px 16px 32px 16px;
-}
+} 
 
 .icon-body .social-icons {
   padding: 24px 16px 16px 16px;
