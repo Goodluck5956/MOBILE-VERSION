@@ -80,7 +80,6 @@ a {
 .social-media-icons {
   display: flex;
   padding: 24px 16px 50px 16px;
-
 }
 
 .social-media-icons li a {
@@ -223,7 +222,6 @@ button:active {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border: 1px solid #fff;
   color: white;
-  box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
@@ -253,7 +251,7 @@ button:active {
   line-height: 32px;
   color: #344563;
   padding: 16px 16px 32px 16px;
-} 
+}
 
 .icon-body .social-icons {
   padding: 24px 16px 16px 16px;
