@@ -170,7 +170,7 @@ main {
 }
 
 .courses {
-  display: flex;
+  /*display: flex;*/
   align-self: flex-start;
   padding: 16px 36px 0 16px;
 }
@@ -186,6 +186,7 @@ main {
   padding: 0 3.2px;
   margin-right: 16px;
   background-color: #ebebff;
+  float: left;
 }
 
 .btn-body {
@@ -310,3 +311,83 @@ button:active {
   color: #344563;
   padding-left: 16px;
 }
+
+.contact {
+  background-color: #fff;
+}
+
+.contact-me form {
+  margin: auto;
+}
+
+.contact-me {
+  background: #6070ff url('/templates/') 50% no-repeat;
+  background-size: contain;
+  border-radius: 5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  padding: 24px;
+  background-position-x: 100%;
+}
+
+.contact-me h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  padding: 80px 0 15px 0;
+}
+
+.contact-me p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.textfield {
+  width: 100%;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 5px 5px 20px 5px;
+  margin-top: 12px;
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 5px 5px 20px 5px;
+  margin-top: 12px;
+  height: 10rem;
+}
+
+.btn-body-footer {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  align-items: center;
+  font-size: 1rem;
+  color: #396df2;
+  padding: 12px 16px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 10px 0 2rem 0;
+}
+
+.btn:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border: 1px solid #fff;
+  color: white;
+}
+
+.btn-body-footer:active {
+  background: #2230d2;
+}
+
+
