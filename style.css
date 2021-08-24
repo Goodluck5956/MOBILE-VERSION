@@ -27,7 +27,7 @@ a {
 }
 
 .about-bio {
-  background-image: url('templates/header-shapesmobile.svg');
+  background-image: url("templates/header-shapesmobile.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 16px 0 0 0;
@@ -73,7 +73,7 @@ a {
   font-style: normal;
   font-weight: 600;
   color: #7f8cff;
-  padding: 0  16px;
+  padding: 0 16px;
   font-size: 16px;
 }
 
@@ -170,7 +170,7 @@ main {
 }
 
 .courses {
-  /*display: flex;*/
+  /* display: flex; */
   align-self: flex-start;
   padding: 16px 36px 0 16px;
 }
@@ -321,7 +321,7 @@ button:active {
 }
 
 .contact-me {
-  background: #6070ff url('/templates/') 50% no-repeat;
+  background: #6070ff url("/templates/") 50% no-repeat;
   background-size: contain;
   border-radius: 5rem 0 0 0;
   display: flex;
@@ -389,5 +389,3 @@ button:active {
 .btn-body-footer:active {
   background: #2230d2;
 }
-
-
