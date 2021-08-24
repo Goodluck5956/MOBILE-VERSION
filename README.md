@@ -49,6 +49,11 @@ Lucky James
 - GitHub: [@Goodluck5956](https://github.com/Goodluck5956)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucky-james-osuagwu-a8677b171)
 
+👤 **Author2**
+Amel Khiri
+
+GitHub: @Algerina
+LinkedIn: @Amel Khiri
 
 ## 🤝 Contributing
 
