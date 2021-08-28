@@ -548,7 +548,7 @@ form {
   .contact-me {
     display: flex;
     align-items: center;
-    background: #6070ff url(img/desk-footer-bg.svg) 50% no-repeat;
+    background: #6070ff url(/templates/footerbackground.png) 50% no-repeat;
     background-size: contain;
   }
 
