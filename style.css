@@ -381,7 +381,7 @@ form {
   display: none;
 }
 
-@media (min-width: 1090px) {
+@media (min-width: 992px) {
   .menu-top ul {
     text-transform: capitalize;
     display: block;
@@ -544,8 +544,14 @@ form {
   .contact-me {
     display: flex;
     align-items: center;
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact {
     background: #6070ff url(./templates/footerbackground.png) 50% no-repeat;
     background-size: contain;
+    border-top-left-radius: 25%;
   }
 
   .contact form {
@@ -556,7 +562,7 @@ form {
 
   .btn-body-footer {
     text-align: center;
-    border-radius: 0;
+    border-radius: 7px;
   }
 
   .textfield {
