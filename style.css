@@ -559,10 +559,10 @@ form {
     border-radius: 0;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
-  
+
   .btn-body-footer:hover {
     background-color: green;
-    transform:rotate(360deg);
+    transform: rotate(360deg);
   }
 
   .textfield {
