@@ -15,7 +15,7 @@ This project displays the work section and the about me section of my mobile ver
 
 ## Live Demo
 
-[Live Demo Link](https://goodluck5956.github.io/Mobile-Version/)
+[Live Demo Link]( https://goodluck5956.github.io/Mobile-Version/)
 
 ## Getting Started
 
