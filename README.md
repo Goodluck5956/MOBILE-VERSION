@@ -15,7 +15,7 @@ This project displays the work section and the about me section of my mobile ver
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Goodluck5956/Mobile-Version/dc8225633f0e5a35b94e5612be6c5113c1023875/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Goodluck5956/Mobile-Version/894ebb8c4f7f181c00ff5556ac519fd64bf32b68/index.html)
 
 ## Getting Started
 
