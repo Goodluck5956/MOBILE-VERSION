@@ -27,7 +27,7 @@ a {
 }
 
 .about-myself-top {
-  background: #fff url(img/header-shapes-mobile.svg) 50% no-repeat;
+  background: #fff url(/templates/Headerbg\ \(3\).png) 50% no-repeat;
   background-size: contain;
   padding: 1rem 0 0 0;
   height: 100%;
@@ -73,7 +73,7 @@ a {
   font-style: normal;
   font-weight: 600;
   color: #7f8cff;
-  padding: 0  1rem;
+  padding: 0 1rem;
   font-size: 1.2rem;
   text-transform: uppercase;
 }
@@ -419,11 +419,6 @@ form {
     line-height: 2rem;
   }
 
-  .about-myself-top {
-    background: #fff url(/templates/Headerbg\ \(3\).png) 50% no-repeat;
-    background-size: contain;
-  }
-
   .work {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -440,6 +435,8 @@ form {
   .body-content {
     margin: 1rem;
   }
+
+  
 
   .work-top {
     margin: 0 1rem 1.5rem 1rem;
