@@ -166,7 +166,8 @@ main {
 }
 
 .about-myself-top {
-  background: white url(/templates/Headerbg\ \(3\).png) 50% no-repeat;
+  background: white url(/templates/Headerbg\ \(3\).png);
+  background-repeat: no-repeat;
   background-size: contain;
   padding: 1rem 0 0 0;
   height: 100%;
