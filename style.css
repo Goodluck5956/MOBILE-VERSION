@@ -166,7 +166,7 @@ main {
 }
 
 .about-myself-top {
-  background: white url(/templates/Headerbg.png.png);
+  background: white url(./templates/Headerbg.png.png);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 1rem 0 0 0;
@@ -544,7 +544,7 @@ form {
   .contact-me {
     display: flex;
     align-items: center;
-    background: #6070ff url(/templates/footerbackground.png) 50% no-repeat;
+    background: #6070ff url(./templates/footerbackground.png) 50% no-repeat;
     background-size: contain;
   }
 
