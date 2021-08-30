@@ -542,7 +542,7 @@ form {
   }
 
   .contact-me {
-    display: flex; 
+    display: flex;
     align-items: center;
     background: #6070ff url(./templates/footerbackground.png) 50% no-repeat;
     background-size: contain;
@@ -550,8 +550,18 @@ form {
     flex-direction: column;
   }
 
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5rem;
+  }
+
   .contact form {
     align-self: center;
+
     /* width: 70%; */
     text-align: center;
   }
@@ -572,15 +582,6 @@ form {
     margin-bottom: 0.5rem;
     border-radius: 0;
     width: 50%;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-    margin-left: 5rem;
   }
 
   .textarea {
