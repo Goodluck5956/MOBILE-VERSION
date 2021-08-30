@@ -546,11 +546,23 @@ form {
     align-items: center;
     background: #6070ff url(./templates/footerbackground.png) 50% no-repeat;
     background-size: contain;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5rem;
   }
 
   .contact form {
     align-self: center;
-    width: 70%;
+
+    /* width: 70%; */
     text-align: center;
   }
 
@@ -558,6 +570,7 @@ form {
     text-align: center;
     border-radius: 0;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
+    width: 20%;
   }
 
   .btn-body-footer:hover {
@@ -568,9 +581,11 @@ form {
   .textfield {
     margin-bottom: 0.5rem;
     border-radius: 0;
+    width: 50%;
   }
 
   .textarea {
     border-radius: 0;
+    width: 50%;
   }
 }
