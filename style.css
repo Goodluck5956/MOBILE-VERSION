@@ -145,7 +145,7 @@ main {
   font-style: normal;
   font-weight: 600;
   font-size: 0.9rem;
-  color: #7a869a;
+  color: black;
   text-transform: capitalize;
 }
 
@@ -332,6 +332,10 @@ form {
   border-radius: 8px;
   padding: 5px 5px 20px 5px;
   margin-top: 12px;
+}
+
+.counter {
+  background-color: green;
 }
 
 .textarea {
