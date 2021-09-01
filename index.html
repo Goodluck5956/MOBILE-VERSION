@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-CXGV1TWXSF");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,12 +28,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <title>Osuagwu Lucky James</title>
+    <title>Osuagwa's Portfolio</title>
   </head>
   <body>
     <header class="menu-top">
       <a class="img-logo" href="#">LUCKY</a>
-      <img src="./templates/Hambergermenu.png" alt="Hamberger"/>
+      <img src="./templates/Hambergermenu.png" alt="Hamberger" />
       <ul class="desktop-menu">
         <li><a href="#">portfolio</a></li>
         <li><a href="#">about</a></li>
@@ -41,7 +55,9 @@
       <a class="connect connect-header" href="#">let's connect</a>
       <ul class="social-icons icons-header">
         <li>
-          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/goodluck.osuagwu"
+            ><i class="fab fa-twitter"></i
+          ></a>
         </li>
         <li>
           <a href="www.linkedin.com/in/lucky-james-osuagwu-a8677b171"
@@ -49,15 +65,19 @@
           ></a>
         </li>
         <li>
-          <a href="#"><i class="fab fa-medium-m"></i></a>
+          <a href="https://www.facebook.com/goodluck.osuagwu"
+            ><i class="fab fa-medium-m"></i
+          ></a>
         </li>
         <li>
-          <a href="https://github.com/Goodluck5956"
+          <a href="https://www.facebook.com/goodluck.osuagwu"
             ><i class="fab fa-github"></i
           ></a>
         </li>
         <li>
-          <a href="#"><i class="fab fa-angellist"></i></a>
+          <a href="https://www.facebook.com/goodluck.osuagwu"
+            ><i class="fab fa-angellist"></i
+          ></a>
         </li>
       </ul>
     </section>
@@ -230,10 +250,10 @@
 
       <section class="about-myself">
         <div class="flex-item1 flex-item">
-          <h1 class="myself-header">
+          <h2 class="myself-header">
             About<br />
             Myself
-          </h1>
+          </h2>
           <p class="myself-paragraph">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
@@ -265,7 +285,12 @@
             </ul>
           </nav>
           <form action="#">
-            <button class="btn-body btn" type="submit" name="submit" id="submit">
+            <button
+              class="btn-body btn"
+              type="submit"
+              name="submit"
+              id="submit"
+            >
               get my resume
             </button>
           </form>
@@ -302,11 +327,11 @@
     </main>
     <footer class="contact">
       <section class="contact-me">
-        <h3>Contact me</h3>
+        <h2>Contact me</h2>
         <p>
           If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
+          that you need built or a project that needs coding. I would love to
+          help with it
         </p>
         <form action="https://formspree.io/f/xrgrovlp" method="POST">
           <input
@@ -330,6 +355,7 @@
             placeholder="Leave a message here"
             required
           ></textarea>
+
           <button type="submit" class="btn-body-footer btn">
             Get It Touch
           </button>

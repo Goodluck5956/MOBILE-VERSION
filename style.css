@@ -64,7 +64,7 @@ a {
 .connect {
   font-style: normal;
   font-weight: 600;
-  color: #7f8cff;
+  color: blue;
   padding: 0 1rem;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -145,7 +145,7 @@ main {
   font-style: normal;
   font-weight: 600;
   font-size: 0.9rem;
-  color: #7a869a;
+  color: black;
   text-transform: capitalize;
 }
 
@@ -544,48 +544,33 @@ form {
   .contact-me {
     display: flex;
     align-items: center;
-    background: #6070ff url(./templates/footerbackground.png) 50% no-repeat;
-    background-size: contain;
-    justify-content: center;
-    flex-direction: column;
+    width: 50%;
+    margin: auto;
   }
 
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-    margin-left: 5rem;
+  .contact {
+    background: #6070ff url(./templates/footerbackground.png) 50% no-repeat;
+    background-size: contain;
+    border-top-left-radius: 25%;
   }
 
   .contact form {
     align-self: center;
-
-    /* width: 70%; */
+    width: 70%;
     text-align: center;
   }
 
   .btn-body-footer {
     text-align: center;
-    border-radius: 0;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-    width: 20%;
-  }
-
-  .btn-body-footer:hover {
-    background-color: green;
-    transform: rotate(360deg);
+    border-radius: 7px;
   }
 
   .textfield {
     margin-bottom: 0.5rem;
     border-radius: 0;
-    width: 50%;
   }
 
   .textarea {
     border-radius: 0;
-    width: 50%;
   }
 }
