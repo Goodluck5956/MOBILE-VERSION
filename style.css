@@ -485,16 +485,25 @@ form {
 }
 
 @media (min-width: 1090px) {
-  .menu-top ul {
-    text-transform: capitalize;
-    display: block;
-    display: flex;
-    align-items: center;
-    padding: 0 3rem;
+  .btn-toggle {
+    width: 8rem;
+    padding: 0;
+    height: 2rem;
   }
 
-  .mobile-menu {
-    display: none;
+  .toggle-body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .toggle-p {
+    max-width: 80%;
+    margin: 1rem 1rem;
+  }
+
+  .toggle-list-bottom {
+    display: block;
+    display: flex;
   }
 
   .ham {
