@@ -450,6 +450,13 @@ form {
     color: #343647;
   }
 
+  .desktop-menu {
+    display: block;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+  }
+
   .img-logo {
     padding: 0 3rem;
   }
