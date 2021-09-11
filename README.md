@@ -15,7 +15,7 @@ For this milestone of your portfolio website, i implemented the mobile menu usin
 
 ## Live Demo
 
-[Live Demo Link](http://127.0.0.1:5500/index.html)
+[Live Demo Link](https://goodluck5956.github.io/Mobile-Version/)
 
 ## Getting Started
 
