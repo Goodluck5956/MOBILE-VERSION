@@ -3,7 +3,7 @@
 # My Mobile skeleton
 
 
-This project displays the work section and the about me section of my mobile version page. The project was built with Html, Css,Vscode,Git and Github. 
+For this milestone of your portfolio website, i implemented the mobile menu using your recently acquired JavaScript knowledge. 
 
 ![screenshot](./templates/screenshot.png)
 
@@ -15,7 +15,7 @@ This project displays the work section and the about me section of my mobile ver
 
 ## Live Demo
 
-[Live Demo Link](https://goodluck5956.github.io/Mobile-Version/)
+[Live Demo Link](http://127.0.0.1:5500/index.html)
 
 ## Getting Started
 
