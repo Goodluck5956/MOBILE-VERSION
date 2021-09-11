@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 const menu = document.querySelector('.mobile-menu');
 const ham = document.querySelector('.ham');
 const xIcon = document.querySelector('.xIcon');
@@ -25,4 +24,3 @@ menuLinks.forEach(
     mobileLink.addEventListener('click', toggleMenu);
   },
 );
-/* eslint-enable linebreak-style */

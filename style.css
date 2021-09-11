@@ -141,6 +141,61 @@ main {
   padding-top: 5rem;
 }
 
+.toggle-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.toggle-p {
+  max-width: 100%;
+  margin: 1rem 0 1rem 0.5rem;
+}
+
+.toggle-text-top h1 {
+  margin-left: 1rem;
+}
+
+.toggle-list-top {
+  display: flex;
+}
+
+.toggle-list-bottom {
+  display: none;
+}
+
+.toggle-list-top li,
+.toggle-list-bottom li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #949eff;
+  border: 1px solid #dadbff;
+  border-radius: 0.5rem;
+  padding: 0 0.3rem;
+  margin: 1rem 0.3rem 0 0;
+  background-color: #ebebff;
+}
+
+.btn-toggle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  color: #7f8cff;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  background-color: #f7f7f9;
+  margin: 2rem 0 0 0;
+  width: 12rem;
+}
+
 .work {
   margin: auto;
   max-width: 90%;
