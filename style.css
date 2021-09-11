@@ -37,11 +37,17 @@ a {
 }
 
 .menu-top {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem 1rem 1rem;
   background: #fff;
+  width: 100%;
+  height: 50px;
+  opacity: 0.96;
+  z-index: 1;
 }
 
 .menu-top a {
@@ -51,6 +57,48 @@ a {
   font-size: 1.3rem;
   text-transform: capitalize;
   color: #6070ff;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: #6070ff;
+  transform: translateY(-150%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding: 6rem 2rem;
+}
+
+.mobile-menu a {
+  font-weight: 800;
+  color: white;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.ham {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 1.5rem;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.showMenu {
+  transform: translateY(0);
 }
 
 .intro p {
@@ -91,6 +139,61 @@ main {
   grid-template-columns: 100%;
   row-gap: 5rem;
   padding-top: 5rem;
+}
+
+.toggle-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.toggle-p {
+  max-width: 100%;
+  margin: 1rem 0 1rem 0.5rem;
+}
+
+.toggle-text-top h1 {
+  margin-left: 1rem;
+}
+
+.toggle-list-top {
+  display: flex;
+}
+
+.toggle-list-bottom {
+  display: none;
+}
+
+.toggle-list-top li,
+.toggle-list-bottom li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #949eff;
+  border: 1px solid #dadbff;
+  border-radius: 0.5rem;
+  padding: 0 0.3rem;
+  margin: 1rem 0.3rem 0 0;
+  background-color: #ebebff;
+}
+
+.btn-toggle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  color: #7f8cff;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  background-color: #f7f7f9;
+  margin: 2rem 0 0 0;
+  width: 12rem;
 }
 
 .work {
@@ -311,7 +414,7 @@ form {
   background-position-x: 100%;
 }
 
-.contact-me h3 {
+.contact-me h2 {
   font-weight: bold;
   font-size: 40px;
   color: #fff;
@@ -369,12 +472,12 @@ form {
   background: #2230d2;
 }
 
-.menu-top img {
+.menuIcon {
   display: block;
 }
 
 .menu-top ul {
-  display: none;
+  align-items: center;
 }
 
 .work-bottom2 {
@@ -382,12 +485,33 @@ form {
 }
 
 @media (min-width: 1090px) {
-  .menu-top ul {
-    text-transform: capitalize;
+  .btn-toggle {
+    width: 8rem;
+    padding: 0;
+    height: 2rem;
+  }
+
+  .toggle-body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .toggle-p {
+    max-width: 80%;
+    margin: 1rem 1rem;
+  }
+
+  .toggle-list-bottom {
     display: block;
     display: flex;
-    align-items: center;
-    padding: 0 3rem;
+  }
+
+  .ham {
+    display: none;
+  }
+
+  .menuIcon {
+    display: none;
   }
 
   .menu-top li {
@@ -395,15 +519,18 @@ form {
   }
 
   .desktop-menu a {
-    color: #6070ff;
+    color: #343647;
+  }
+
+  .desktop-menu {
+    display: block;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
   }
 
   .img-logo {
     padding: 0 3rem;
-  }
-
-  .menu-top img {
-    display: none;
   }
 
   .intro h1 {
