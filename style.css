@@ -50,6 +50,7 @@ a {
   z-index: 1;
 }
 
+
 .menu-top a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -436,6 +437,14 @@ form {
     display: flex;
     align-items: center;
     padding: 0 3rem;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .ham {
+    display: none;
   }
 
   .menuIcon {
