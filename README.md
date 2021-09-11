@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
     VS Code
 
 ### Usage
-    This is a simple project to implement the mobile menu using your recently acquired JavaScript knowledge
+    This is a simple project where i implemented the mobile menu using your recently acquired JavaScript knowledge.
 
 
 ## Authors
