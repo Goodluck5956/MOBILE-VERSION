@@ -28,18 +28,31 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <title>Osuagwa's Portfolio</title>
+    <title>Lucky James Portfolio</title>
   </head>
   <body>
     <header class="menu-top">
-      <a class="img-logo" href="#">LUCKY</a>
-      <img src="./templates/Hambergermenu.png" alt="Hamberger" />
+      <a class="img-logo" id="logo" href="#">LUCKY</a>
       <ul class="desktop-menu">
         <li><a href="#">portfolio</a></li>
         <li><a href="#">about</a></li>
         <li><a href="#">contact</a></li>
       </ul>
-    </header>
+      <button class="ham" type="button">
+        <span class="menuIcon">
+          <img src="./templates/Hambergermenu.png" alt="menu-icon">
+      </span>
+      <span class="xIcon">
+        <img src="./templates/IconCancel.png" alt="menu-icon">
+      </span>
+    </button>
+  <ul class="mobile-menu">
+    <li><a class="mobileLink" href="#portfolio">Portfolio</a></li>
+    <li><a class="mobileLink" href="#about">About</a></li>
+    <li><a class="mobileLink" href="#contact">Contact</a></li>
+  </ul>
+
+</header>
 
     <section class="about-myself-top">
       <div class="intro">
@@ -84,10 +97,10 @@
 
     <main class="grid">
       <!-- First section starts -->
-      <section class="work-one work">
+      <section id="portfolio" class="work-one work">
         <img class="img-work" src="./templates/Snap1(4).svg" alt="Tonic" />
         <div class="body-content">
-          <h2>Facebook 360</h2>
+         <h2>Facebook 360</h2>
           <ul class="work-top">
             <li class="canopy">Facebook</li>
             <li>
@@ -248,7 +261,7 @@
         </div>
       </section>
 
-      <section class="about-myself">
+      <section id="about" class="about-myself">
         <div class="flex-item1 flex-item">
           <h2 class="myself-header">
             About<br />
@@ -357,10 +370,11 @@
           ></textarea>
 
           <button type="submit" class="btn-body-footer btn">
-            Get It Touch
+            Get it Touch
           </button>
         </form>
       </section>
     </footer>
+    <script src=" ./dynamic.js "></script>
   </body>
 </html>

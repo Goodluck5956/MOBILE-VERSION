@@ -3,7 +3,7 @@
 # My Mobile skeleton
 
 
-This project displays the work section and the about me section of my mobile version page. The project was built with Html, Css,Vscode,Git and Github. 
+For this milestone of your portfolio website, i implemented the mobile menu using your recently acquired JavaScript knowledge. 
 
 ![screenshot](./templates/screenshot.png)
 
@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
     VS Code
 
 ### Usage
-    This is a simple project to dipslay the work section and about me of my mobile version page.
+    This is a simple project where i implemented the mobile menu using your recently acquired JavaScript knowledge.
 
 
 ## Authors
